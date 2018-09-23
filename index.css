@@ -1,0 +1,176 @@
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+body {
+  background-image: url(https://inforchannel.com.br/wp-content/uploads/2017/09/gestao-telecom-1024x683.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #2b2828;
+}
+
+#bigName {
+  text-align: center;
+  padding-top: 1%;
+  font-family: Dosis;
+  font-size: 7vw;
+  color: #FFFFFF;
+  text-shadow: 1px 0 2px black;
+  background: rgba(0,0,0,0.5);
+}
+
+#smallName {
+  text-align: center;
+  font-family: Dosis;
+  font-size: 2vw;
+  color: #FFFFFF;
+  padding-bottom: 7%;
+  text-shadow: 1px 0 2px black;
+  background: rgba(0,0,0,0.5);
+}
+#smallName2 {
+  text-align: center;
+  font-family: Dosis;
+  font-size: 3vw;
+  color: #FFFFFF;
+  text-shadow: 1px 0 2px black;
+}
+#smallName3 {
+  text-align: center;
+  font-family: Dosis;
+  font-size: 2vw;
+  color: #FFFFFF;
+  padding-bottom: 3%;
+  text-shadow: 1px 0 2px black;
+}
+
+#MuhPic {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45%;
+    padding-top: 5%;
+    width: 20%;
+}
+
+.fullWidth {
+ width: 100%;
+ margin-top: 3em;
+ background: rgba(255, 255, 255, 0.6);
+ text-align: center;
+ padding-bottom: 3%;
+}
+
+.con2 {
+  background: rgba(0,0,0,0.5);
+  padding-top: 3%;
+  padding-bottom: 1%;
+  width: 100%;
+  width-bottom: 50%;
+
+}
+
+#port1 {
+  text-align: center;
+  font-family: Dosis;
+  PADDING-top: 2.5%;
+}
+
+#contactMe {
+  text-align: center;
+  font-family: Dosis;
+  font-size: 3.5vw;
+  color: #FFFFFF;
+  padding-bottom: 2%;
+   padding-top: 5%;
+  text-shadow: 1px 0 2px black;
+  background: rgba(0,0,0,0.5);
+}
+
+.form1 {
+  text-align: center;
+  font-family: Dosis;
+  color: #FFFFFF;
+  font-size: 1.8vw;
+  background: rgba(0,0,0,0.5);
+}
+
+#contactMe1 {
+  text-align: center;
+  font-family: Dosis;
+  font-size: 1vw;
+  color: #FFFFFF;
+  padding-bottom: 2%;
+   padding-top: 5%;
+  text-shadow: 1px 0 2px black;
+}
+
+.buttons{
+  width: 100%;
+  float: right;
+}
+
+.fb{
+  background-color: #3498DB;
+	border-bottom: 2px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+  color: #FFFF;
+  font-size: 2.5vw;
+}
+
+.btnport{
+  background-color: #3498DB;
+	border-bottom: 2px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+  color: #FFFF;
+  font-size: 2.5vw;
+}
+
+.btnabout{
+  background-color: #3498DB;
+	border-bottom: 2px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+  color: #FFFF;
+  font-size: 2.5vw;
+}
+
+.btnhome{
+  background-color: #3498DB;
+	border-bottom: 2px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+  color: #FFFF;
+  font-size: 2.5vw;
+}
+
+.mbtn{
+  background-color: #3498DB;
+	border-bottom: 2px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+  color: #FFFF;
+  font-size: 2.5vw;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
