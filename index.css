@@ -1,3 +1,16 @@
+*{
+   margin: 2;
+  padding:0;
+}
+.buttons{
+  display: flex;
+  position: fixed;
+  margin-top: -48px;
+  justify-content:space-around;
+  background-color:rgba(0,0,0,0.5);
+  border-bottom: 6px solid #2980B9;
+}
+
 .animate
 {
 	transition: all 0.1s;
@@ -7,12 +20,12 @@
 .action-button
 {
 	position: relative;
-	padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
-  float: left;
-	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
+	padding: 0.5em 1em;
+  margin: 0em 1em 1em 0em;
+/*   float: left; */
+	border-radius: 1em;
+	font-family: 'Dosis';
+/* 	font-size: 2vw; */
 	color: #FFF;
 	text-decoration: none;	
 }
@@ -36,23 +49,23 @@ body {
   background: rgba(0,0,0,0.5);
 }
 
-#smallName {
+.smallName {
   text-align: center;
   font-family: Dosis;
   font-size: 2vw;
   color: #FFFFFF;
-  padding-bottom: 7%;
   text-shadow: 1px 0 2px black;
   background: rgba(0,0,0,0.5);
 }
-#smallName2 {
+.smallName2 {
   text-align: center;
   font-family: Dosis;
   font-size: 3vw;
   color: #FFFFFF;
   text-shadow: 1px 0 2px black;
+  margin-top: 1px;
 }
-#smallName3 {
+.smallName3 {
   text-align: center;
   font-family: Dosis;
   font-size: 2vw;
@@ -60,16 +73,15 @@ body {
   padding-bottom: 3%;
   text-shadow: 1px 0 2px black;
 }
-
-#MuhPic {
+.img-responsive {
     display: block;
-    margin-top: 10px;
+    margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 45%;
-    padding-top: 5%;
+    padding-top: 6%;
     width: 20%;
-}
+} 
 
 .fullWidth {
  width: 100%;
@@ -79,19 +91,26 @@ body {
  padding-bottom: 3%;
 }
 
+.fullWidth > p{
+  font-family: Dosis;
+  font-size: 2vw;
+}
+
 .con2 {
   background: rgba(0,0,0,0.5);
   padding-top: 3%;
   padding-bottom: 1%;
   width: 100%;
   width-bottom: 50%;
-
 }
 
-#port1 {
-  text-align: center;
+/* .port {
+ color: black;
+} */
+
+.links{
   font-family: Dosis;
-  PADDING-top: 2.5%;
+  
 }
 
 #contactMe {
@@ -100,26 +119,26 @@ body {
   font-size: 3.5vw;
   color: #FFFFFF;
   padding-bottom: 2%;
-   padding-top: 5%;
+/*    padding-top: 5%; */
   text-shadow: 1px 0 2px black;
   background: rgba(0,0,0,0.5);
+  margin-bottom: 0px;
 }
 
 .form1 {
   text-align: center;
   font-family: Dosis;
   color: #FFFFFF;
-  font-size: 1.8vw;
+  font-size: 2vw;
   background: rgba(0,0,0,0.5);
 }
 
-#contactMe1 {
+.form2{
   text-align: center;
   font-family: Dosis;
-  font-size: 1vw;
+  font-size: 1.4vw;
   color: #FFFFFF;
-  padding-bottom: 2%;
-   padding-top: 5%;
+  background: rgba(0,0,0,0.5);
   text-shadow: 1px 0 2px black;
 }
 
@@ -136,7 +155,7 @@ body {
   font-size: 2.5vw;
 }
 
-.btnport{
+.btngit{
   background-color: #3498DB;
 	border-bottom: 2px solid #2980B9;
 	text-shadow: 0px -2px #2980B9;
@@ -144,7 +163,7 @@ body {
   font-size: 2.5vw;
 }
 
-.btnabout{
+.btncode{
   background-color: #3498DB;
 	border-bottom: 2px solid #2980B9;
 	text-shadow: 0px -2px #2980B9;
@@ -173,4 +192,9 @@ body {
 	transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
 	border-bottom: 1px solid;
+}
+
+.envButton{
+  font-family: Dosis;
+  font-size: 2vw;
 }
